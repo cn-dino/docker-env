@@ -1,6 +1,6 @@
 # docker-env
 
-simple docker image that shows the use of environment variables to affect the application at runtime
+simple docker image that shows the use of environment variables to pass configuration information to the application at runtime
 
 ## Usage
 
