@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ colour }}</title>
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            border: 3px solid white;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 300px;
+            height: 100px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body style='background-color:{{ colour }}'>
+    <div class="center">
+        <h1 style="color:white">{{ colour }}</h1>
+    </div>
+</body>
+
+</html>
