@@ -16,4 +16,4 @@ def hello():
     return '<body style="background-color:{}">'.format(colour)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')
